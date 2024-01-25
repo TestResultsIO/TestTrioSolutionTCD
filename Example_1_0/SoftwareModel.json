@@ -1,0 +1,584 @@
+{
+  "ScreenSets": [],
+  "SourceScreenResolution": {
+    "Width": 640,
+    "Height": 480
+  },
+  "IsScreenResolutionWarningDisabled": false,
+  "Screens": [
+    {
+      "Id": "ca703d91-1bb7-45e5-bd48-a785ea05cf2c",
+      "Name": "Auswahl",
+      "DisplayName": "Auswahl",
+      "BaseClass": "Progile.TRIO.BaseModel.BaseScreen",
+      "IsBaseScreen": false,
+      "RelativeLocation": "Screens\\Fahrplan",
+      "OpenImagePath": "Images\\Fahrplan\\Auswahl\\Screen_Loaded",
+      "ScreenImagePath": "Images\\Fahrplan\\Auswahl\\Screen_Image",
+      "Position": {
+        "X": 0,
+        "Y": 0,
+        "Width": 640,
+        "Height": 480
+      },
+      "Elements": [
+        {
+          "Id": "b4a9c34d-84f7-49bf-94de-70eae8a058fd",
+          "Position": {
+            "X": 265,
+            "Y": 66,
+            "Width": 86,
+            "Height": 31
+          },
+          "Name": "Von",
+          "Type": "Progile.TRIO.BaseModel.TextBox",
+          "Parameters": [
+            {
+              "Name": "appBasics",
+              "Value": "AppBasics"
+            },
+            {
+              "Name": "displayName",
+              "Value": "Von"
+            },
+            {
+              "Name": "searchType",
+              "Value": "Text"
+            },
+            {
+              "Name": "searchText",
+              "Value": "Von"
+            },
+            {
+              "Name": "filters",
+              "Value": "ScreenSelect"
+            }
+          ]
+        },
+        {
+          "Id": "54aba210-ca9f-43f1-90b6-1e8d2ad70d33",
+          "Position": {
+            "X": 0,
+            "Y": 0,
+            "Width": 0,
+            "Height": 0
+          },
+          "Name": "Nach",
+          "Type": "Progile.TRIO.BaseModel.TextBox",
+          "Parameters": [
+            {
+              "Name": "appBasics",
+              "Value": "AppBasics"
+            },
+            {
+              "Name": "displayName",
+              "Value": "Nach"
+            },
+            {
+              "Name": "searchType",
+              "Value": "Text"
+            },
+            {
+              "Name": "searchText",
+              "Value": "Nach"
+            },
+            {
+              "Name": "filters",
+              "Value": "ScreenSelect"
+            }
+          ]
+        },
+        {
+          "Id": "681bfc90-bc34-40f1-a7b6-58c94f12f67b",
+          "Position": {
+            "X": 0,
+            "Y": 0,
+            "Width": 0,
+            "Height": 0
+          },
+          "Name": "Uhrzeit",
+          "Type": "Progile.TRIO.BaseModel.TextBox",
+          "Parameters": [
+            {
+              "Name": "appBasics",
+              "Value": "AppBasics"
+            },
+            {
+              "Name": "displayName",
+              "Value": "Uhrzeit"
+            },
+            {
+              "Name": "searchType",
+              "Value": "Text"
+            },
+            {
+              "Name": "searchText",
+              "Value": "Uhrzeit"
+            },
+            {
+              "Name": "filters",
+              "Value": "ScreenSelect"
+            }
+          ]
+        },
+        {
+          "Id": "b01a9cdf-3cca-4267-a736-d15ef5ef95f2",
+          "Position": {
+            "X": 360,
+            "Y": 376,
+            "Width": 49,
+            "Height": 23
+          },
+          "Name": "Züge",
+          "Type": "Progile.TRIO.BaseModel.Button",
+          "Parameters": [
+            {
+              "Name": "tester",
+              "Value": "t"
+            },
+            {
+              "Name": "displayName",
+              "Value": "Züge"
+            },
+            {
+              "Name": "searchType",
+              "Value": "Image"
+            },
+            {
+              "Name": "activeImageReference",
+              "Value": "Images\\Fahrplan\\Auswahl\\Züge\\active"
+            },
+            {
+              "Name": "useVisualSense",
+              "Value": "false"
+            },
+            {
+              "Name": "filters",
+              "Value": "ScreenSelect"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "4c1c605a-ee4a-4909-b126-ee3031aa3726",
+      "Name": "Kauf",
+      "DisplayName": "Kauf",
+      "BaseClass": "Progile.TRIO.BaseModel.BaseScreen",
+      "IsBaseScreen": false,
+      "RelativeLocation": "Screens\\Fahrplan",
+      "OpenImagePath": "Images\\Fahrplan\\Kauf\\Screen_Loaded",
+      "ScreenImagePath": "Images\\Fahrplan\\Kauf\\Screen_Image",
+      "Position": {
+        "X": 0,
+        "Y": 0,
+        "Width": 640,
+        "Height": 480
+      },
+      "Elements": [
+        {
+          "Id": "c4a61396-7291-4a87-8f4f-1059eb2e14d0",
+          "Position": {
+            "X": 138,
+            "Y": 59,
+            "Width": 46,
+            "Height": 13
+          },
+          "Name": "Zurück",
+          "Type": "Progile.TRIO.BaseModel.Button",
+          "Parameters": [
+            {
+              "Name": "tester",
+              "Value": "t"
+            },
+            {
+              "Name": "displayName",
+              "Value": "Zurück"
+            },
+            {
+              "Name": "searchType",
+              "Value": "Text"
+            },
+            {
+              "Name": "searchText",
+              "Value": "Zurück"
+            },
+            {
+              "Name": "useVisualSense",
+              "Value": "false"
+            },
+            {
+              "Name": "filters",
+              "Value": "ScreenSelect"
+            }
+          ]
+        },
+        {
+          "Id": "962e32c8-35f3-4d5a-bbb0-de8229265715",
+          "Position": {
+            "X": 128,
+            "Y": 219,
+            "Width": 99,
+            "Height": 15
+          },
+          "Name": "Zug1Abfahrt",
+          "Type": "Progile.TRIO.BaseModel.Label",
+          "Parameters": [
+            {
+              "Name": "tester",
+              "Value": "t"
+            },
+            {
+              "Name": "displayName",
+              "Value": "Zug 1 Abfahrt"
+            },
+            {
+              "Name": "searchType",
+              "Value": "Text"
+            },
+            {
+              "Name": "searchText",
+              "Value": "Abfahrt 10:55"
+            },
+            {
+              "Name": "filters",
+              "Value": "ScreenSelect"
+            }
+          ]
+        },
+        {
+          "Id": "33174761-fc2e-47e1-bd02-02a0acd197ab",
+          "Position": {
+            "X": 455,
+            "Y": 372,
+            "Width": 52,
+            "Height": 13
+          },
+          "Name": "Tickets1",
+          "Type": "Progile.TRIO.BaseModel.Button",
+          "Parameters": [
+            {
+              "Name": "tester",
+              "Value": "t"
+            },
+            {
+              "Name": "displayName",
+              "Value": "Tickets 1"
+            },
+            {
+              "Name": "searchType",
+              "Value": "Text"
+            },
+            {
+              "Name": "searchText",
+              "Value": "Tickets"
+            },
+            {
+              "Name": "useVisualSense",
+              "Value": "false"
+            },
+            {
+              "Name": "filters",
+              "Value": "ScreenSelect"
+            }
+          ]
+        },
+        {
+          "Id": "65bb3210-64e5-4fa8-98b1-556ff58f9eae",
+          "Position": {
+            "X": 128,
+            "Y": 310,
+            "Width": 100,
+            "Height": 15
+          },
+          "Name": "Zug2Abfahrt",
+          "Type": "Progile.TRIO.BaseModel.Label",
+          "Parameters": [
+            {
+              "Name": "tester",
+              "Value": "t"
+            },
+            {
+              "Name": "displayName",
+              "Value": "Zug 2 Abfahrt"
+            },
+            {
+              "Name": "searchType",
+              "Value": "Text"
+            },
+            {
+              "Name": "searchText",
+              "Value": "Abfahrt 11:25"
+            },
+            {
+              "Name": "filters",
+              "Value": "ScreenSelect"
+            }
+          ]
+        },
+        {
+          "Id": "72719e58-47df-44ea-8b35-bd867acbc030",
+          "Position": {
+            "X": 455,
+            "Y": 372,
+            "Width": 52,
+            "Height": 13
+          },
+          "Name": "Tickets2",
+          "Type": "Progile.TRIO.BaseModel.Button",
+          "Parameters": [
+            {
+              "Name": "tester",
+              "Value": "t"
+            },
+            {
+              "Name": "displayName",
+              "Value": "Tickets 2"
+            },
+            {
+              "Name": "searchType",
+              "Value": "Text"
+            },
+            {
+              "Name": "searchText",
+              "Value": "Tickets"
+            },
+            {
+              "Name": "useVisualSense",
+              "Value": "false"
+            },
+            {
+              "Name": "filters",
+              "Value": "ScreenSelect"
+            }
+          ]
+        },
+        {
+          "Id": "68d0ad45-be94-43af-a000-7d5a4bc43288",
+          "Position": {
+            "X": 125,
+            "Y": 387,
+            "Width": 101,
+            "Height": 16
+          },
+          "Name": "Zug3Abfahrt",
+          "Type": "Progile.TRIO.BaseModel.Label",
+          "Parameters": [
+            {
+              "Name": "tester",
+              "Value": "t"
+            },
+            {
+              "Name": "displayName",
+              "Value": "Zug 3 Abfahrt"
+            },
+            {
+              "Name": "searchType",
+              "Value": "Text"
+            },
+            {
+              "Name": "searchText",
+              "Value": "Abfahrt 11:43"
+            },
+            {
+              "Name": "filters",
+              "Value": "ScreenSelect"
+            }
+          ]
+        },
+        {
+          "Id": "49990ea1-9e3e-4116-b0c0-bb314cb10a6f",
+          "Position": {
+            "X": 455,
+            "Y": 372,
+            "Width": 52,
+            "Height": 13
+          },
+          "Name": "Tickets3",
+          "Type": "Progile.TRIO.BaseModel.Button",
+          "Parameters": [
+            {
+              "Name": "tester",
+              "Value": "t"
+            },
+            {
+              "Name": "displayName",
+              "Value": "Tickets 3"
+            },
+            {
+              "Name": "searchType",
+              "Value": "Text"
+            },
+            {
+              "Name": "searchText",
+              "Value": "Tickets"
+            },
+            {
+              "Name": "useVisualSense",
+              "Value": "false"
+            },
+            {
+              "Name": "filters",
+              "Value": "ScreenSelect"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "f05466a3-af75-40c0-80a7-f1b5640038b6",
+      "Name": "Final",
+      "DisplayName": "Final",
+      "BaseClass": "Progile.TRIO.BaseModel.BaseScreen",
+      "IsBaseScreen": false,
+      "RelativeLocation": "Screens\\Fahrplan",
+      "OpenImagePath": "Images\\Fahrplan\\Final\\Screen_Loaded",
+      "ScreenImagePath": "Images\\Fahrplan\\Final\\Screen_Image",
+      "Position": {
+        "X": 0,
+        "Y": 0,
+        "Width": 640,
+        "Height": 480
+      },
+      "Elements": [
+        {
+          "Id": "effd2428-ae70-4a48-8712-cf465a64df1c",
+          "Position": {
+            "X": 257,
+            "Y": 141,
+            "Width": 141,
+            "Height": 71
+          },
+          "Name": "Zug1Label",
+          "Type": "Progile.TRIO.BaseModel.Label",
+          "Parameters": [
+            {
+              "Name": "tester",
+              "Value": "t"
+            },
+            {
+              "Name": "displayName",
+              "Value": "Zug 1 Label"
+            },
+            {
+              "Name": "searchType",
+              "Value": "Image"
+            },
+            {
+              "Name": "imageReference",
+              "Value": "Images\\Fahrplan\\Final\\Zug 1 Label"
+            },
+            {
+              "Name": "filters",
+              "Value": "ScreenSelect"
+            }
+          ]
+        },
+        {
+          "Id": "a55b4287-4706-4899-9839-c8ced67a92d2",
+          "Position": {
+            "X": 267,
+            "Y": 306,
+            "Width": 96,
+            "Height": 20
+          },
+          "Name": "Zurück",
+          "Type": "Progile.TRIO.BaseModel.Button",
+          "Parameters": [
+            {
+              "Name": "tester",
+              "Value": "t"
+            },
+            {
+              "Name": "displayName",
+              "Value": "Zurück"
+            },
+            {
+              "Name": "searchType",
+              "Value": "Text"
+            },
+            {
+              "Name": "searchText",
+              "Value": "< Zurück"
+            },
+            {
+              "Name": "useVisualSense",
+              "Value": "false"
+            },
+            {
+              "Name": "filters",
+              "Value": "ScreenSelect"
+            }
+          ]
+        },
+        {
+          "Id": "2abefecf-c008-4db9-9192-97d39f531096",
+          "Position": {
+            "X": 264,
+            "Y": 147,
+            "Width": 140,
+            "Height": 67
+          },
+          "Name": "Zug2Label",
+          "Type": "Progile.TRIO.BaseModel.Label",
+          "Parameters": [
+            {
+              "Name": "tester",
+              "Value": "t"
+            },
+            {
+              "Name": "displayName",
+              "Value": "Zug 2 Label"
+            },
+            {
+              "Name": "searchType",
+              "Value": "Image"
+            },
+            {
+              "Name": "imageReference",
+              "Value": "Images\\Fahrplan\\Final\\Zug 2 Label"
+            },
+            {
+              "Name": "filters",
+              "Value": "ScreenSelect"
+            }
+          ]
+        },
+        {
+          "Id": "f8c83268-b63f-44a0-b85e-e4a1676e4db5",
+          "Position": {
+            "X": 264,
+            "Y": 147,
+            "Width": 140,
+            "Height": 67
+          },
+          "Name": "Zug3Label",
+          "Type": "Progile.TRIO.BaseModel.Label",
+          "Parameters": [
+            {
+              "Name": "tester",
+              "Value": "t"
+            },
+            {
+              "Name": "displayName",
+              "Value": "Zug 3 Label"
+            },
+            {
+              "Name": "searchType",
+              "Value": "Image"
+            },
+            {
+              "Name": "imageReference",
+              "Value": "Images\\Fahrplan\\Final\\Zug 3 Label"
+            },
+            {
+              "Name": "filters",
+              "Value": "ScreenSelect"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "AppFunctions": []
+}

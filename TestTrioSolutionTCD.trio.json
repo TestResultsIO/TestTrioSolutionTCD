@@ -1,0 +1,35 @@
+{
+  "CustomerId": "93d2e5cb-4877-448c-8c5e-496dba26f178",
+  "ProjectId": "02932538-03aa-403e-97bf-71b9bff4a3f6",
+  "ServerUri": "https://stage.testresults.io",
+  "Environments": [
+    {
+      "$type": "Progile.Trio.Designer.DomainObjects.EnvironmentImage, Progile.Trio.Designer",
+      "ImagePathStaticEnvironment": null,
+      "RaiseImagePathPopupBeforeExecution": false,
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "Name": "Simulation"
+    },
+    {
+      "$type": "Progile.Trio.Designer.DomainObjects.EnvironmentLocal, Progile.Trio.Designer",
+      "MonitorId": 0,
+      "Id": "da08db1f-05e6-4f58-8390-b801de5de358",
+      "Name": "Local Monitor"
+    },
+    {
+      "$type": "Progile.Trio.Designer.DomainObjects.EnvironmentImage, Progile.Trio.Designer",
+      "ImagePathStaticEnvironment": "C:\\Users\\BR011601\\source\\repos\\TestTrioSolutionTCD\\Mockup\\Fahrplan.zip",
+      "RaiseImagePathPopupBeforeExecution": false,
+      "Id": "1e3ab22a-9bc6-44f2-a020-3597ed0cba47",
+      "Name": "Fahrplan"
+    }
+  ],
+  "SolutionVersion": "7.0",
+  "SolutionType": null,
+  "ElementsFilter": [],
+  "GetLabelTextSettings": {
+    "OcrPadding": 5,
+    "MaxDetectedCharacters": 40,
+    "MaxDetectedWords": 5
+  }
+}

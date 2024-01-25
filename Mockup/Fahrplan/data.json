@@ -1,0 +1,75 @@
+{
+	"Start": "Auswahl",
+	"Screens": [{
+			"Name": "Auswahl",
+			"Image": "01Auswahl.png",
+			"Buttons": [{
+				"Location": "345,364,92,37",
+				"Screen": "Kauf",
+				"Action": "GoToScreen"
+			}],
+			"Textentries": [{
+					"Name": "Von",
+					"Location": "198,147,230,21"
+				},
+				{
+					"Name": "Nach",
+					"Location": "196,227,231,26"
+				},
+				{
+					"Name": "Uhrzeit",
+					"Location": "203,308,234,24"
+				}
+			]
+		},
+		{
+			"Name": "Kauf",
+			"Image": "02Kauf.png",
+			"Buttons": [{
+					"Location": "440,201,74,28",
+					"Screen": "Final1",
+					"Action": "GoToScreen"
+				},
+				{
+					"Location": "444,280,65,30",
+					"Screen": "Final2",
+					"Action": "GoToScreen"
+				},
+				{
+					"Location": "449,365,67,30",
+					"Screen": "Final3",
+					"Action": "GoToScreen"
+				},
+				{
+					"Location": "125,57,83,22",
+					"Screen": "Auswahl",
+					"Action": "GoToScreen"
+				}
+			]
+		},
+		{
+			"Name": "Final1",
+			"Image": "03Final-1.png",
+			"Buttons": [{
+				"Location": "184,283,308,82",
+				"Screen": "Auswahl"
+			}]
+		},
+		{
+			"Name": "Final2",
+			"Image": "03Final-2.png",
+			"Buttons": [{
+				"Location": "184,283,308,82",
+				"Screen": "Auswahl"
+			}]
+		},
+		{
+			"Name": "Final3",
+			"Image": "03Final-3.png",
+			"Buttons": [{
+				"Location": "184,283,308,82",
+				"Screen": "Auswahl"
+			}]
+		}
+	]
+}
